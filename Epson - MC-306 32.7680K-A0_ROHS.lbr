@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="EPSON_MC-306_32.7680K-A0-ROHS_0">
+                    <description>CRYSTAL 32.7680KHZ 12.5PF SMD</description>
+                    <wire layer="51" y2="1.6" width="0.15" x2="-4.0" y1="-1.6" x1="-4.0"/>
+                    <wire layer="51" y2="1.6" width="0.15" x2="4.0" y1="1.6" x1="-4.0"/>
+                    <wire layer="51" y2="-1.6" width="0.15" x2="4.0" y1="1.6" x1="4.0"/>
+                    <wire layer="51" y2="-1.6" width="0.15" x2="-4.0" y1="-1.6" x1="4.0"/>
+                    <wire layer="39" y2="2.65" width="0.1" x2="-4.1" y1="-2.65" x1="-4.1"/>
+                    <wire layer="39" y2="2.65" width="0.1" x2="4.1" y1="2.65" x1="-4.1"/>
+                    <wire layer="39" y2="-2.65" width="0.1" x2="4.1" y1="2.65" x1="4.1"/>
+                    <wire layer="39" y2="-2.65" width="0.1" x2="-4.1" y1="-2.65" x1="4.1"/>
+                    <wire layer="21" y2="-1.6" width="0.15" x2="1.7" y1="-1.6" x1="-1.7"/>
+                    <wire layer="21" y2="1.6" width="0.15" x2="1.7" y1="1.6" x1="-1.7"/>
+                    <text layer="25" align="bottom-left" y="2.975" x="-3.34" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="-2.975" x="-2.775" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.3" dy="1.9" y="-1.6" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.3" dy="1.9" y="-1.6" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="1.3" dy="1.9" y="1.6" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="1.3" dy="1.9" y="1.6" x="2.75" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="EPSON_MC-306_32.7680K-A0-ROHS_0_0">
+                    <description>CRYSTAL 32.7680KHZ 12.5PF SMD</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="2.286" y1="-5.08" x1="3.302"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="6.858" y1="-2.54" x1="6.858"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="3.302" y1="-2.54" x1="3.302"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="8.128" y1="-5.08" x1="6.858"/>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="4.318" y1="-7.62" x1="4.318"/>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="5.842" y1="-2.54" x1="4.318"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="5.842" y1="-2.54" x1="5.842"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="4.318" y1="-7.62" x1="5.842"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="2.54" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="2.54" y1="-10.16" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="7.62" y1="-10.16" x1="7.62"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="7.62" y1="-5.08" x1="7.62"/>
+                    <text layer="95" align="top-left" y="-13.97" x="-2.794" rot="R0" size="2.54">MC-306 32.7680K-A0:ROHS</text>
+                    <text layer="95" align="top-left" y="2.794" x="-2.286" rot="R0" size="2.54">&gt;NAME</text>
+                    <pin name="1" visible="pad" length="middle" y="-5.08" x="-2.54"/>
+                    <pin name="1_NC" visible="pad" length="middle" y="-10.16" x="-2.54"/>
+                    <pin name="2_NC" visible="pad" length="middle" y="-10.16" x="12.7" rot="R180"/>
+                    <pin name="4" visible="pad" length="middle" y="-5.08" x="12.7" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="Y" name="EPSON_MC-306_32.7680K-A0-ROHS">
+                    <description>CRYSTAL 32.7680KHZ 12.5PF SMD</description>
+                    <gates>
+                        <gate name="G$0" symbol="EPSON_MC-306_32.7680K-A0-ROHS_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="EPSON_MC-306_32.7680K-A0-ROHS_0_0" package="EPSON_MC-306_32.7680K-A0-ROHS_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="1_NC"/>
+                                <connect gate="G$0" pad="3" pin="2_NC"/>
+                                <connect gate="G$0" pad="4" pin="4"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="MPN" value="MC-306 32.7680K-A0:ROHS"/>
+                                    <attribute name="mouser_part_number" value="732-MC30632.7680KA0R"/>
+                                    <attribute name="digikey_description" value="CRYSTAL 32.7680KHZ 12.5PF SMD"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="SER2407CT-ND"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="prefix" value="Y"/>
+                                    <attribute name="MF" value="Epson"/>
+                                    <attribute name="package" value="SMT_XTAL_8MM0_3MM20"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="datasheet" value="http://media.digikey.com/pdf/Data%20Sheets/Epson%20PDFs/MC-306%20,405,%20406.pdf"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
